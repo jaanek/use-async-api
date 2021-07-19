@@ -1,0 +1,31 @@
+{
+  "name": "use-async-api",
+  "version": "0.0.3",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -fR ./lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaanek/use-async-api.git"
+  },
+  "author": {
+    "name": "Jaanek Oja",
+    "email": "jaanekoja@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaanek/use-async-api/issues"
+  },
+  "homepage": "https://github.com/jaanek/use-async-api#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  }
+}
